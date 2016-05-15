@@ -20,6 +20,21 @@ $button-color: #03a9f4;
 .categore_even-column{
 	background-color: $column;
 }
+.categore_odd-column{
+	background-color: $bgc;
+}
+.category__list{
+	display: none;
+	height: 93%;
+	overflow: scroll;
+}
+.category__list.active{
+	display: block;
+}
+.category__list::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
 
 .category__header{
 	margin-left: 20px;

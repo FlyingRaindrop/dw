@@ -6,13 +6,15 @@
 .player__item{
 	float: left;
 	width: 75%;
-	height: 767px;
-	
+	// height: 767px;
 }
 .menu{
 	float: right;
-	background-color: $bgc;
 	width: 25%;
+	background-color: #3f51b5;
+}
+.header{
+	background-color: $bgc;
 }
 .header__logo-wrap{
 	float: left;
@@ -93,6 +95,7 @@
 }
 
 .inserted__list{
+	// display: none;
 	padding: 0;
 	height: 178px;
 	overflow: scroll;
@@ -204,4 +207,20 @@
 	cursor: pointer;
 	font-size: 35px;
 	color: #fff;
+}
+.menu{
+	.footer{
+		background-color: $bgc;
+	}
+}
+
+//mode full menu
+.full{
+	.acco__text-small{
+		display: none;
+	}
+	.inserte__id-wrap-small{
+			display: none;
+		}
+
 }

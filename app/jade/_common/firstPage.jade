@@ -1,9 +1,9 @@
-		.all-data
+.all-data
 			.wrapper.clearfix
-				.category.category_small
+				.category.category_small.categore_odd-column
 					.category__header
 						h3.category__title Категории
-					ul.category__list
+					ul.category__list.active
 						- var categories = ['Галактика AMM','Галактика EAM','Галактика ERP','Галактика BI']
 						each category in categories
 							li.category__item
@@ -12,7 +12,7 @@
 						.category__header
 							h3.category__title Видеозаписи
 						ul.category__list.active
-							- for(var i=0; i<5; i++)
+							- for(var i=0; i<15; i++)
 								li.category__item.category__item_education
 									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
 										.category__button-wrap
@@ -35,10 +35,10 @@
 									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
 										.category__button-wrap
 											button.category__button Просмотреть
-				.category.category_mid
+				.category.category_mid.categore_odd-column
 						.category__header
 							h3.category__title Материалы
-						ul.category__list
+						ul.category__list.active
 							- for(var i=0; i<5; i++)
 								li.category__item.category__item_education
 									span.category__text.category__text_education.clearfix Управление произврдством
