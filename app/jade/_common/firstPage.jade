@@ -1,0 +1,86 @@
+		.all-data
+			.wrapper.clearfix
+				.category.category_small
+					.category__header
+						h3.category__title Категории
+					ul.category__list
+						- var categories = ['Галактика AMM','Галактика EAM','Галактика ERP','Галактика BI']
+						each category in categories
+							li.category__item
+								span.category__text= category
+				.category.category_mid.categore_even-column
+						.category__header
+							h3.category__title Видеозаписи
+						ul.category__list.active
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
+										.category__button-wrap
+											button.category__button Просмотреть
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
+										.category__button-wrap
+											button.category__button Просмотреть
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
+										.category__button-wrap
+											button.category__button Просмотреть
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление проектами на промышленных предприятиях
+										.category__button-wrap
+											button.category__button Просмотреть
+				.category.category_mid
+						.category__header
+							h3.category__title Материалы
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление произврдством
+										.category__button-wrap
+											button.category__button Скачать
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление произврдством
+										.category__button-wrap
+											button.category__button Скачать
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление произврдством
+										.category__button-wrap
+											button.category__button Скачать
+						ul.category__list
+							- for(var i=0; i<5; i++)
+								li.category__item.category__item_education
+									span.category__text.category__text_education.clearfix Управление произврдством
+										.category__button-wrap
+											button.category__button Скачать
+				.category.category_big.categore_even-column
+						.category__header.clearfix
+							.category__full-content
+								i.pe-7s-more.pe-5x.pe-va
+							h3.category__title Управление проектами на промышленных предприятиях
+						.content
+							.content__wrap
+								.content__image-wrap
+									img.content__image(src='images/content/amm1.jpg', alt='amm1')
+								span.content__text.content_author Михаил Длин, ведущий эксперт Центра поддержки и консалтинга корпорации «Галактика»  
+								p.content__text.content_info В программе вебинара:
+									ol.content__list
+										li(value='1').content__item
+											span.content__text Производственное планирование;
+										li.content__item 
+											span.content__text Управление МТО;
+										li.content__item
+											span.content__text Управление производством на цеховом уровне;
+										li.content__item
+											span.content__text Формирование нарядов (бригадные, индивидуальные) по результатам выполнения ССЗ;
+										li.content__item
+											span.content__text Анализ плановых и фактических данных с использованием Microsoft Power BI.

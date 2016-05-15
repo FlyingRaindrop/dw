@@ -10,7 +10,7 @@
 	
 }
 .menu{
-	float: left;
+	float: right;
 	background-color: $bgc;
 	width: 25%;
 }
@@ -163,8 +163,10 @@
 	font-style: normal;
 }
 .inserted__icon{
+	float: right;
+	margin-right: 22px;
 	cursor: pointer;
-	padding: 0 0 10px 20px;
+	padding: 0 0 10px 295px;
 	font-size: 20px;
 	color: #fff;
 }
