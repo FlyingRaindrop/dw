@@ -37,13 +37,15 @@ body{
 // для menu
 .player, .wrapper, .menu{
 	height: 100%;
-	// для аккордеона
 }
 // для category
 .all-data, .category{
 	height: 100%;
 }
-
+// для плеера
+.player, .wrapper, .player__item{
+	height: 100%;
+}
 // прибитый футер в меню
 .menu__page{
   box-sizing: border-box;

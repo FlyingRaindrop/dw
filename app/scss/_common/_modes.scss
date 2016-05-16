@@ -1,0 +1,25 @@
+// блок с плеером и категориями
+.player{
+	display: block;
+}
+// блок плеера
+.player__item{
+	display: block;
+}
+// список видео по выбранной категории
+.full-category{
+	display: none4;
+}
+// первая страница
+.all-data{
+	display: none;
+}
+// контент на первой странице для видео
+.content__wrap{
+	display: none;
+}
+// блок с pdf файлом
+.iframe-wrap{
+	display: block;
+}
+
